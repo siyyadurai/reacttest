@@ -1,0 +1,23 @@
+E:\GitHub\reacttest>git init
+Initialized empty Git repository in E:/GitHub/reacttest/.git/
+
+E:\GitHub\reacttest>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+E:\GitHub\reacttest>git add README.md
+
+E:\GitHub\reacttest>git commit -m "first commit"
+[master (root-commit) 9cbfbc1] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+E:\GitHub\reacttest>git remote add origin https://github.com/siyyadurai/reacttest.git
+
+E:\GitHub\reacttest>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 219 bytes | 109.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/siyyadurai/reacttest.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
