@@ -6,9 +6,6 @@ fatal: pathspec 'README.md' did not match any files
 
 E:\GitHub\reacttest>git add README.md
 
-
-
-
 E:\GitHub\reacttest>git commit -m "first commit"
 [master (root-commit) 9cbfbc1] first commit
  1 file changed, 0 insertions(+), 0 deletions(-)
